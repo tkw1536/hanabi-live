@@ -1,0 +1,6 @@
+public/node_modules
+.env
+logs
+public/css/main.css
+public/css/main.min.css
+docker/.env

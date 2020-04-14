@@ -1,10 +1,6 @@
-# We exclude all files by default from the Docker build context as a performance optimization
+# Exclude all files by default from the Docker build context as a performance optimization.
 # https://docs.docker.com/engine/reference/builder/#dockerignore-file
 # https://kevinpollet.dev/posts/how-to-use-your-dockerignore-as-a-whitelist/
-
-# Ignore everything
 *
-
-# Allow files and folders with a pattern starting with !
 !.env_template
 !src
